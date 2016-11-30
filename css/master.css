@@ -1,6 +1,6 @@
 body { line-height: 1.2; font-family: Helvetica, sans-serif; }
 
-.fixedCTA { z-index: 8999; position: absolute; top: 0; padding: 250px 0; width: 960px; text-align: center; background-color: rgba(255, 255, 255, 0.9); color: #000000; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
+.fixedCTA { z-index: 8999; position: absolute; top: 0; padding: 250px 0; width: 940px; text-align: center; background-color: rgba(255, 255, 255, 0.9); color: #000000; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
 
 ul { padding-top: 0px; }
 
