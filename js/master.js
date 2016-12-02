@@ -67,7 +67,42 @@ $(document).ready(function() {
   ];
 
   for (var i = 0; i < vehicleArray.length; i++) {
-    $('.contentContainer').append('<div class="vehicleContainer"><div class="leftSpanColumn"><a href="'+ vehicleArray[i][2] + '" target="_blank"><img src="inc/'+ vehicleArray[i][0] + '/' + vehicleArray[i][0] + '_1.jpg" alt="Vehicle Image" class="mainImg primary mainImg1"></a><img src="inc/'+ vehicleArray[i][0] + '/' + vehicleArray[i][0] + '_2.jpg" alt="Vehicle Image" class="mainImg mainImg2"></a><img src="inc/'+ vehicleArray[i][0] + '/' + vehicleArray[i][0] + '_3.jpg" alt="Vehicle Image" class="mainImg mainImg3"></a><img src="inc/'+ vehicleArray[i][0] + '/' + vehicleArray[i][0] + '_4.jpg" alt="Vehicle Image" class="mainImg mainImg4"></a><img src="inc/'+ vehicleArray[i][0] + '/' + vehicleArray[i][0] + '_5.jpg" alt="Vehicle Image" class="mainImg mainImg5"></a><img src="inc/'+ vehicleArray[i][0] + '/' + vehicleArray[i][0] + '_6.jpg" alt="Vehicle Image" class="mainImg mainImg6"></a><div class="supImages"><img src="inc/'+ vehicleArray[i][0] + '/' + vehicleArray[i][0] + '_1.jpg" alt="supporting image" class="supImg supImg1"><img src="inc/'+ vehicleArray[i][0] + '/' + vehicleArray[i][0] + '_2.jpg" alt="supporting image" class="supImg supImg2"><img src="inc/'+ vehicleArray[i][0] + '/' + vehicleArray[i][0] + '_3.jpg" alt="supporting image" class="supImg supImg3"><img src="inc/'+ vehicleArray[i][0] + '/' + vehicleArray[i][0] + '_4.jpg" alt="supporting image" class="supImg supImg4"><img src="inc/'+ vehicleArray[i][0] + '/' + vehicleArray[i][0] + '_5.jpg" alt="supporting image" class="supImg supImg5"><img src="inc/' + vehicleArray[i][0] + '/' + vehicleArray[i][0] + '_6.jpg" alt="supporting image" class="supImg supImg6"></div></div><div class="rightSpanColumn"><h1 class="vehicleTitle">' + vehicleArray[i][1] + '</h1><h1 class="price">' + vehicleArray[i][3] + '</h1><h4 class="msrp">MSRP: '+ vehicleArray[i][4] +'</h4><ul><li class="mileage"><strong>Mileage:</strong> '+ vehicleArray[i][5] + '</li><li class="extColor"><strong>Exterior Color:</strong> '+ vehicleArray[i][7] + '</li><li class="intColor"><strong>Interior Color:</strong> '+ vehicleArray[i][8] + '</li><li class="engineType"><strong>Engine:</strong> '+ vehicleArray[i][6] + '</li><li    class="trans"><strong>Transmission:</strong> '+ vehicleArray[i][6] + '</li><li class="mpg"><strong>MPG:</strong> '+ vehicleArray[i][9] + '</li><li class="stockNumber"><strong>Stock:</strong> '+ vehicleArray[i][0] + '</li></ul><a href="'+ vehicleArray[i][2] + '" class="vehicleCTA" target="_blank">VIEW VEHICLE</a></div></div>');
+    $('.contentContainer').append('<div class="vehicleContainer"><div class="leftSpanColumn"><a href="inc/brochure.pdf" download="Volvo CPO Brochure.pdf" class="volvo cpo download"><img src="inc/cpo.jpg" class="cpoImg" alt="cpo image" /></a><img src="inc/'
+    + vehicleArray[i][0] + '/'
+    + vehicleArray[i][0] + '_1.jpg" alt="Vehicle Image" class="mainImg ' + vehicleArray[i][0] + ' primary mainImg1"><img src="inc/'
+    + vehicleArray[i][0] + '/'
+    + vehicleArray[i][0] + '_2.jpg" alt="Vehicle Image" class="mainImg mainImg2"></a><img src="inc/'
+    + vehicleArray[i][0] + '/'
+    + vehicleArray[i][0] + '_3.jpg" alt="Vehicle Image" class="mainImg mainImg3"></a><img src="inc/'
+    + vehicleArray[i][0] + '/'
+    + vehicleArray[i][0] + '_4.jpg" alt="Vehicle Image" class="mainImg mainImg4"></a><img src="inc/'
+    + vehicleArray[i][0] + '/'
+    + vehicleArray[i][0] + '_5.jpg" alt="Vehicle Image" class="mainImg mainImg5"></a><img src="inc/'
+    + vehicleArray[i][0] + '/'
+    + vehicleArray[i][0] + '_6.jpg" alt="Vehicle Image" class="mainImg mainImg6"></a><div class="supImages"><img src="inc/'
+    + vehicleArray[i][0] + '/'
+    + vehicleArray[i][0] + '_1.jpg" alt="supporting image" class="supImg supImg1"><img src="inc/'
+    + vehicleArray[i][0] + '/'
+    + vehicleArray[i][0] + '_2.jpg" alt="supporting image" class="supImg supImg2"><img src="inc/'
+    + vehicleArray[i][0] + '/'
+    + vehicleArray[i][0] + '_3.jpg" alt="supporting image" class="supImg supImg3"><img src="inc/'
+    + vehicleArray[i][0] + '/'
+    + vehicleArray[i][0] + '_4.jpg" alt="supporting image" class="supImg supImg4"><img src="inc/'
+    + vehicleArray[i][0] + '/'
+    + vehicleArray[i][0] + '_5.jpg" alt="supporting image" class="supImg supImg5"><img src="inc/'
+    + vehicleArray[i][0] + '/'
+    + vehicleArray[i][0] + '_6.jpg" alt="supporting image" class="supImg supImg6"></div></div><div class="rightSpanColumn"><h1 class="vehicleTitle">'
+    + vehicleArray[i][1] + '</h1><h1 class="price">'
+    + vehicleArray[i][3] + '</h1><h4 class="msrp">MSRP: '
+    + vehicleArray[i][4] +'</h4><ul><li class="mileage"><strong>Mileage:</strong> '
+    + vehicleArray[i][5] + '</li><li class="extColor"><strong>Exterior Color:</strong> '
+    + vehicleArray[i][7] + '</li><li class="intColor"><strong>Interior Color:</strong> '
+    + vehicleArray[i][8] + '</li><li class="engineType"><strong>Engine:</strong> '
+    + vehicleArray[i][6] + '</li><li    class="trans"><strong>Transmission:</strong> '
+    + vehicleArray[i][6] + '</li><li class="mpg"><strong>MPG:</strong> '
+    + vehicleArray[i][9] + '</li><li class="stockNumber"><strong>Stock:</strong> '
+    + vehicleArray[i][0] + '</li></ul><a href="'
+    + vehicleArray[i][2] + '" class="vehicleCTA" target="_blank">VIEW VEHICLE</a></div></div>');
 
 
     $('.mainImg').hide();
@@ -101,4 +136,17 @@ $(document).ready(function() {
   $(document).scroll(function(event){
     $('.fixedCTA').fadeOut("slow");
   });
+  if ( ! Modernizr.adownload ) {
+    var $link = $('a');
+
+    $link.each(function() {
+        var $download = $(this).attr('download');
+
+        if (typeof $download !== typeof undefined && $download !== false) {
+      var $el = $('<div>').addClass('download-instruction').text('Right-click and select "Download Linked File"');
+      $el.insertAfter($(this));
+        }
+
+    });
+  }
 });

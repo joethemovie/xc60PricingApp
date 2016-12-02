@@ -52,6 +52,20 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/inc\/brochure.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/inc\/brochure.pdf",
+		"oF": 0
+		},
+	"\/inc\/cpo.jpg": {
+		"ft": 16384,
+		"iS": 30476,
+		"oA": 0,
+		"oAP": "\/inc\/cpo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/inc\/VOG0114\/VOG0114_1.jpg": {
 		"ft": 16384,
 		"iS": 1984045,
