@@ -67,7 +67,7 @@ $(document).ready(function() {
   ];
 
   for (var i = 0; i < vehicleArray.length; i++) {
-    $('.contentContainer').append('<div class="vehicleContainer"><div class="leftSpanColumn"><a href="inc/brochure.pdf" target="_blank" class="volvo cpo download"><img src="inc/cpo.jpg" class="cpoImg" alt="cpo image" /></a><img src="inc/'
+    $('.contentContainer').append('<div class="vehicleContainer"><div class="leftSpanColumn"><a href="https://pictures.dealer.com/ramseyvolvovcna/d042e4bf0a0e0acc40518cc59c6e81e7.pdf" target="_blank" class="volvo cpo download"><img src="inc/cpo.jpg" class="cpoImg" alt="cpo image" /></a><img src="inc/'
     + vehicleArray[i][0] + '/'
     + vehicleArray[i][0] + '_1.jpg" name="mainVehicleImg" alt="Vehicle Image" class="mainImg ' + vehicleArray[i][0] + ' primary mainImg1"><img src="inc/'
     + vehicleArray[i][0] + '/'
