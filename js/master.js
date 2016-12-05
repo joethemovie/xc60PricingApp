@@ -67,9 +67,9 @@ $(document).ready(function() {
   ];
 
   for (var i = 0; i < vehicleArray.length; i++) {
-    $('.contentContainer').append('<div class="vehicleContainer"><div class="leftSpanColumn"><a href="inc/brochure.pdf" download="Volvo CPO Brochure.pdf" class="volvo cpo download"><img src="inc/cpo.jpg" class="cpoImg" alt="cpo image" /></a><img src="inc/'
+    $('.contentContainer').append('<div class="vehicleContainer"><div class="leftSpanColumn"><a href="inc/brochure.pdf" target="_blank" class="volvo cpo download"><img src="inc/cpo.jpg" class="cpoImg" alt="cpo image" /></a><img src="inc/'
     + vehicleArray[i][0] + '/'
-    + vehicleArray[i][0] + '_1.jpg" alt="Vehicle Image" class="mainImg ' + vehicleArray[i][0] + ' primary mainImg1"><img src="inc/'
+    + vehicleArray[i][0] + '_1.jpg" name="mainVehicleImg" alt="Vehicle Image" class="mainImg ' + vehicleArray[i][0] + ' primary mainImg1"><img src="inc/'
     + vehicleArray[i][0] + '/'
     + vehicleArray[i][0] + '_2.jpg" alt="Vehicle Image" class="mainImg mainImg2"></a><img src="inc/'
     + vehicleArray[i][0] + '/'
@@ -81,9 +81,9 @@ $(document).ready(function() {
     + vehicleArray[i][0] + '/'
     + vehicleArray[i][0] + '_6.jpg" alt="Vehicle Image" class="mainImg mainImg6"></a><div class="supImages"><img src="inc/'
     + vehicleArray[i][0] + '/'
-    + vehicleArray[i][0] + '_1.jpg" alt="supporting image" class="supImg supImg1"><img src="inc/'
+    + vehicleArray[i][0] + '_1.jpg" alt="supporting image" name="supVehicleImg1" class="supImg supImg1" /><img src="inc/'
     + vehicleArray[i][0] + '/'
-    + vehicleArray[i][0] + '_2.jpg" alt="supporting image" class="supImg supImg2"><img src="inc/'
+    + vehicleArray[i][0] + '_2.jpg" alt="supporting image" class="supImg supImg2" /><img src="inc/'
     + vehicleArray[i][0] + '/'
     + vehicleArray[i][0] + '_3.jpg" alt="supporting image" class="supImg supImg3"><img src="inc/'
     + vehicleArray[i][0] + '/'
@@ -133,20 +133,5 @@ $(document).ready(function() {
       $('.mainImg6').show();
     });
   }
-  $(document).scroll(function(event){
-    $('.fixedCTA').fadeOut("slow");
-  });
-  if ( ! Modernizr.adownload ) {
-    var $link = $('a');
 
-    $link.each(function() {
-        var $download = $(this).attr('download');
-
-        if (typeof $download !== typeof undefined && $download !== false) {
-      var $el = $('<div>').addClass('download-instruction').text('Right-click and select "Download Linked File"');
-      $el.insertAfter($(this));
-        }
-
-    });
-  }
 });
