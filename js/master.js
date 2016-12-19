@@ -11,16 +11,6 @@ $(document).ready(function() {
     'Off-Black',
     '17 city/23 hwy'],
 
-    ['VOG0132',
-    '2016 Volvo XC60 T6',
-    'http://www.volvocarsramsey.com/new/Volvo/2016-Volvo-XC60-ramsey-nj-ddd6c1bc0a0e0a1714b15322e83337e3.htm',
-    '<sup>$</sup>41,600',
-    '<sup>$</sup>48,785',
-    37,
-    '3.0L Automatic',
-    'Savile Gray',
-    'Soft Beige',
-    '17 city/23 hwy'],
 
     ['VOG0156',
     '2016 Volvo XC60 T6 R-Design',
