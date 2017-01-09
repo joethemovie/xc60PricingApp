@@ -7,7 +7,7 @@
 		"uuidString": "FF29786A-278F-41E2-9308-FC3F7A1A3324"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
 	"\/css\/master.css": {
 		"aP": 0,
@@ -52,10 +52,10 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/inc\/brochure.pdf": {
+	"\/inc\/.brochure.pdf.icloud": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/brochure.pdf",
+		"oAP": "\/inc\/.brochure.pdf.icloud",
 		"oF": 0
 		},
 	"\/inc\/cpo.jpg": {
@@ -840,6 +840,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -1003,6 +1007,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -1368,6 +1376,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -1599,6 +1611,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -2432,6 +2448,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {

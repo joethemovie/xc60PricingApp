@@ -11,7 +11,6 @@ $(document).ready(function() {
     'Off-Black',
     '17 city/23 hwy'],
 
-
     ['VOG0156',
     '2016 Volvo XC60 T6 R-Design',
     'http://www.volvocarsramsey.com/new/Volvo/2016-Volvo-XC60-ramsey-nj-06e0c3350a0e0a17795744df396e644f.htm',
@@ -43,21 +42,11 @@ $(document).ready(function() {
     '3.0L Automatic',
     'Black',
     'Off-Black',
-    '17 city/ 23 hwy'],
-
-    ['VOG0285',
-    '2016 Volvo XC60 T6 R-Design',
-    'http://www.volvocarsramsey.com/new/Volvo/2016-Volvo-XC60-ramsey-nj-036f54120a0e0a173be2a220d4cf7cd5.htm',
-    '<sup>$</sup>45,400',
-    '<sup>$</sup>52,835',
-    59,
-    '3.0L Automatic',
-    'Crystal White Pearl',
     '17 city/ 23 hwy']
   ];
 
   for (var i = 0; i < vehicleArray.length; i++) {
-    $('.contentContainer').append('<div class="vehicleContainer"><div class="leftSpanColumn"><a href="https://pictures.dealer.com/ramseyvolvovcna/d042e4bf0a0e0acc40518cc59c6e81e7.pdf" target="_blank" class="volvo cpo download"><img src="inc/cpo.jpg" class="cpoImg" alt="cpo image" /></a><img src="inc/'
+    $('.contentContainer').append('<div class="vehicleContainer"><div class="leftSpanColumn"><img src="inc/'
     + vehicleArray[i][0] + '/'
     + vehicleArray[i][0] + '_1.jpg" name="mainVehicleImg" alt="Vehicle Image" class="mainImg ' + vehicleArray[i][0] + ' primary mainImg1"><img src="inc/'
     + vehicleArray[i][0] + '/'
