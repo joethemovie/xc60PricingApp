@@ -1,27 +1,6 @@
 $(document).ready(function() {
   var vehicleArray = [
-    ['VOG0114',
-    '2016 Volvo XC60 T6 R-Design',
-    'http://www.volvocarsramsey.com/new/Volvo/2016-Volvo-XC60-ramsey-nj-4d7be70c0a0e0ae81b7120962c231241.htm',
-    '<sup>$</sup>43,900',
-    '<sup>$</sup>51,185',
-    73,
-    '3.0L Automatic',
-    'Crystal White Pearl',
-    'Off-Black',
-    '17 city/23 hwy'],
-
-    ['VOG0156',
-    '2016 Volvo XC60 T6 R-Design',
-    'http://www.volvocarsramsey.com/new/Volvo/2016-Volvo-XC60-ramsey-nj-06e0c3350a0e0a17795744df396e644f.htm',
-    '<sup>$</sup>44,975',
-    '<sup>$</sup>55,335',
-    '8,734',
-    '3.0L Automatic',
-    'Onyx Black',
-    'Off-Black',
-    '17 city/23 hwy'],
-
+    
     ['VOG0248',
     '2016 Volvo XC60 T6 Platinum',
     'http://www.volvocarsramsey.com/new/Volvo/2016-Volvo-XC60-ramsey-nj-b5fe33180a0e0ae7487386d7e8693671.htm',

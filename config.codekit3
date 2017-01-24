@@ -52,10 +52,10 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/inc\/.brochure.pdf.icloud": {
+	"\/inc\/brochure.pdf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/inc\/.brochure.pdf.icloud",
+		"oAP": "\/inc\/brochure.pdf",
 		"oF": 0
 		},
 	"\/inc\/cpo.jpg": {
