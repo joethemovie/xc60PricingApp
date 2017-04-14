@@ -1,6 +1,6 @@
 $(document).ready(function() {
   var vehicleArray = [
-    
+
     ['VOG0248',
     '2016 Volvo XC60 T6 Platinum',
     'http://www.volvocarsramsey.com/new/Volvo/2016-Volvo-XC60-ramsey-nj-b5fe33180a0e0ae7487386d7e8693671.htm',
@@ -10,19 +10,7 @@ $(document).ready(function() {
     '3.0L Automatic',
     'Onyx Black',
     'Off-Black',
-    '17 city/23 hwy'],
-
-    ['VOG0274',
-    '2016 Volvo XC60 T6',
-    'http://www.volvocarsramsey.com/new/Volvo/2016-Volvo-XC60-ramsey-nj-d51d72320a0e0a6b5144145ccdeb93c1.htm',
-    '<sup>$</sup>40,950',
-    '<sup>$</sup>48,120',
-    29,
-    '3.0L Automatic',
-    'Black',
-    'Off-Black',
-    '17 city/ 23 hwy']
-  ];
+    '17 city/23 hwy'];
 
   for (var i = 0; i < vehicleArray.length; i++) {
     $('.contentContainer').append('<div class="vehicleContainer"><div class="leftSpanColumn"><img src="inc/'
