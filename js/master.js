@@ -12,6 +12,7 @@ $(document).ready(function() {
     'Off-Black',
     '17 city/23 hwy'];
 
+
   for (var i = 0; i < vehicleArray.length; i++) {
     $('.contentContainer').append('<div class="vehicleContainer"><div class="leftSpanColumn"><img src="inc/'
     + vehicleArray[i][0] + '/'
