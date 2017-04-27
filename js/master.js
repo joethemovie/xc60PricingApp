@@ -10,7 +10,8 @@ $(document).ready(function() {
     '3.0L Automatic',
     'Onyx Black',
     'Off-Black',
-    '17 city/23 hwy'];
+    '17 city/23 hwy']
+  ];
 
 
   for (var i = 0; i < vehicleArray.length; i++) {
