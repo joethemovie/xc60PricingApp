@@ -4,7 +4,7 @@ $(document).ready(function() {
     ['VOG0248',
     '2016 Volvo XC60 T6 Platinum',
     'http://www.volvocarsramsey.com/new/Volvo/2016-Volvo-XC60-ramsey-nj-b5fe33180a0e0ae7487386d7e8693671.htm',
-    '<sup>$</sup>44,350',
+    '<sup>$</sup>42,350',
     '<sup>$</sup>51,785',
     47,
     '3.0L Automatic',
